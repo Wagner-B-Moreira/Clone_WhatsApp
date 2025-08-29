@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone do WhatsApp Básico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container principal -->
+    <div class="container">
+        <!-- Lista de contatos -->
+        <div class="sidebar">
+            <h1>Contatos</h1>
+            <ul>
+                <li>Wagner</li>
+                <li>Moreira</li>
+                <li>Bastos</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Área do chat -->
+    <div class="chat">
+        <!-- Mensagens -->
+        <div class="messags" id="message">
+            <!-- Exemplo de mensagens fixas -->
+            <div class="message received">Oi, tudo bem?<span class="meta">10:12</span></div>
+            <div class="message sent">Tudo sim! E você?<span class="meta">10:13</span></div>
+        </div>
+
+        <!-- Input para enviar mensagens -->
+        <div class="input-area">
+            <input type="text" id="msginput" placeholder="Digite sua mensagem">
+            <button id="sendBtn">Enviar</button>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
